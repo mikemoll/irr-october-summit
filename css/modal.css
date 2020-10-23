@@ -1,0 +1,54 @@
+
+
+/* Onboarding Modal */
+.onboarding-modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.onboarding-text {
+    color: #342191;
+}
+
+.onboarding-button {
+    background-color: #342191; color: white; font-size: 15px; border-radius: 13px; height: 100px; width: 100px;
+    margin-bottom: 10px; 
+    float: left;
+}
+
+.onboarding-center {
+    display:                 flex;
+    flex-wrap:               wrap;
+    justify-content:         center;
+}
+
+.onboarding-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 3px solid #342191;
+    width: 55%; /* Could be more or less, depending on screen size */
+}
+
+.onboarding-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.onboarding-close:hover,
+.onboarding-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,143 @@
+body{
+    background-color: #F0F0F0;
+    color: #454A53;
+
+}
+.top-bar-text-color{
+    color: #454B53;
+}
+.top-bar-text-color a{
+    color: #454B53;
+    font-weight: normal;
+}
+.dropdown-menu a{
+    color: #333;
+}
+.navbar-brand span{
+    display: none;
+}
+.navbar-brand{
+    background: url('https://www.coodo.com/wp-content/uploads/2015/04/coodo-Logo-300x138.png') no-repeat center;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-size: 150px;
+    width: 150px;
+    height: 50px;
+}
+
+/*------- jumbotron ---------- */
+.jumbotron {
+    color: #454B53;
+}
+.jumbotron-property-bg{
+    background-repeat: no-repeat;
+    background-position: center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0px;
+    background-image: url("https://www.coodo.com/wp-content/uploads/2017/01/Coodo18-resort2-1500x1122.jpg");
+}
+
+.bg-reitium{
+    /*background-image: linear-gradient(to right top, #373B44  , #4286f4);*/
+    /*background-image: linear-gradient(to right top, #373B44  , #13367B);*/
+    /*background-image: linear-gradient(to right top,  #4286f4 , #13367B);*/
+    /*    background-color: #13367B;*/
+    background-color: #FFF;
+}
+/* --- cards ---*/
+.card-property-status-listed{
+    background-color: #13367B;
+}
+.card-title{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #444;
+}
+.card-title a{
+    color: #444;
+}
+.card-title a:hover{
+    color: #444;
+}
+.card-text{
+    color: #666666;
+    line-height: 18px;
+    font-size: 0.9rem;
+}
+.card-fab{
+    background: #FFF;
+}
+.btn-invest{
+    background-image: linear-gradient(to right top, #ffc72c  , #ffc72c);
+}
+
+.btn-invest:hover{
+    background-image: linear-gradient(to right top, #ffc72c  , #edc965);
+    /*background-image: linear-gradient(to  left bottom, #373B44  , #4286f4);  change the direction of the change here */
+    color: #FFF;
+}
+.btn-telegram{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color:#007bff !important;
+    border-radius: 3px;
+    border: 1px solid #007bff !important;
+}
+.btn-telegram:hover{
+    transition: all 0.3s;
+    background: #007bff;
+    color:#FFFFFF !important;
+}
+
+.filling{
+    background-color: #eee;
+    color: #eee;
+}
+.call-to-action-box{
+    background-color: #13367B;
+    padding: 20px;
+    color: #FFF;
+}
+
+/* -------- nav-tabs -------------*/
+.nav-tabs{
+    border-bottom: 1px solid #ffc72c;
+}
+.nav-tabs .nav-link {
+    border: 1px solid #ffc72c;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #ffe49b #ffe49b #ffe49b;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #FFF;
+    background-color: #ffc72c;
+    border-color: #ffc72c #ffc72c #ffc72c;
+}
+.nav-tabs a{
+    color:  #ffc72c;
+    font-size: 24px;
+}
+
+
+/* ---------------- FOOTER -----------------*/
+footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #102e63;
+    font-size: 15px
+}
+footer li a{
+    color: #102e63;
+}
+.footer-office{
+    color:#98a3b9;
+}

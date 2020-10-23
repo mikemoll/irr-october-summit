@@ -1,0 +1,60 @@
+:root {
+  --bg-reitium-color: #0F2A6A;
+  --bg-reitium-color-hover: rgb(55, 93, 116);
+}
+
+.reitium-font{
+  font-family: 'Times New Roman', Times, serif;
+}
+ 
+.login-content .reitium-font{
+  display: none;
+}
+.login-page .login-inside .login-left .login-content .login-logo{
+  width: unset;
+  height: unset;
+}
+.logo-w img{
+  width: unset;
+
+  height: 100px;
+}
+.navbar-brand .logo{
+  /* display: block; */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(/img/logos/TriView-top.png) no-repeat 100%;
+  background-size: 100%;
+  padding: 24px;
+  padding-left: 50px;
+}
+.nav-container--sidebar .logo{
+  /* display: block; */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(/img/logos/TriView-t.png) no-repeat 100%;
+  background-size: 100%;
+  padding: 42px;
+  padding-left: 80px;
+  max-height: 5.321429em;
+  invert(6%) sepia(63%) saturate(6995%) hue-rotate(225deg) brightness(93%) contrast(88%);
+
+  -webkit-filter: brightness(0) invert(46%) sepia(53%) saturate(321%) hue-rotate(157deg) brightness(93%) contrast(91%);
+  filter: brightness(0) invert(46%) sepia(53%) saturate(321%) hue-rotate(157deg) brightness(93%) contrast(91%);
+
+}
+
+.bg-reitium a{
+    color: #FFF;
+    text-decoration: underline;
+}
+.bg-reitium .breadcrumb-item+.breadcrumb-item::before{
+  color: #FFF;
+} 
+.bg-reitium .text-muted{
+  color: #ddd !important;
+}
+
+.dropdown .dropdown__content:not([class='bg--dark']) .menu-vertical a{
+
+}

@@ -12,7 +12,7 @@ const AUTH_URL = `https://accounts.infusionsoft.com/app/oauth/authorize/?client_
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-  res.render("index", { title: "Express" });
+  res.send("Nothing is here");
 });
 router.get("/authorize", checkTokenExpiry, function (req, res, next) {
   res.render("authorize");
@@ -68,9 +68,8 @@ router.post("/handleForm", checkTokenExpiry, (req, res) => {
   console.log(req.body.email);
   getContacts(req, req.body.email)
     .then(async (result) => {
-      if(result.length > 0){  
-        console.log(result);
-
+      console.log(result);
+      if(result.length > 0){          
         var ownerID = result[0].owner_id;
         var tagID = req.body.tag;
         console.log(ownerID+"-"+tagID);
